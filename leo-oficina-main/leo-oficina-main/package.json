@@ -1,0 +1,27 @@
+{
+  "name": "leo-oficina",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --watch ./src --exec ts-node ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Thiago Aguiar, Felipe Adriano, Eduarda, Frank Rodrigo",
+  "license": "ISC",
+  "description": "Projeto IFSP - Oficina Mecânica",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "@types/nodemon": "^1.19.6",
+    "concurrently": "^9.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
